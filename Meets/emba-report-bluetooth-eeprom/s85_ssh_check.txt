@@ -1,0 +1,16 @@
+[[0;34m+[0m] [0;36m[1mCheck SSH[0m
+[1m=================================================================[0m
+This module tries to identify ssh-related files and analyses found sshd configuration files with sshdcc - https://github.com/sektioneins/sshdcc.
+
+
+[0;34m==>[0m [0;36mSearch ssh files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No ssh configuration files found
+
+[0;34m==>[0m [0;36mCheck squid[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No possible squid executable found
+[[0;31m-[0m] No squid configuration found
+
+[*] Statistics:0:0
+[[0;31m-[0m] Tue Nov 28 11:49:55 MST 2023 - S85_ssh_check nothing reported

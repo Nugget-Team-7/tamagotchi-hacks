@@ -1,0 +1,25 @@
+[[0;34m+[0m] [0;36m[1mCheck HTTP files[0m
+[1m=================================================================[0m
+This module tries to identify httpd-related files including Nginx, Apache, httpd, lighttpd, cherokee and php.ini files.
+
+
+[0;34m==>[0m [0;36mSearch web served files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No web related files found
+
+[0;34m==>[0m [0;36mSearch http files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No http related files found
+
+[0;34m==>[0m [0;36mCheck for apache or nginx related files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No Apache related files found
+[[0;31m-[0m] No nginx related files found
+[[0;31m-[0m] No Lighttpd related files found
+[[0;31m-[0m] No Cherokee related files found
+[[0;31m-[0m] No HTTPd related files found
+
+[0;34m==>[0m [0;36mCheck for php.ini[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No php.ini found
+[[0;31m-[0m] Tue Nov 28 11:49:54 MST 2023 - S35_http_file_check nothing reported

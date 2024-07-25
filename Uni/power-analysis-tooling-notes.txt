@@ -1,0 +1,7 @@
+record in DigitalScope
+export as txt
+move to PulseView
+import as raw binary logic data 
+
+todo: remove rf shield
+test connection and booting via pin clamps

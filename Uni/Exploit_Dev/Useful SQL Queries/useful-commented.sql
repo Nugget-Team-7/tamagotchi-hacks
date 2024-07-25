@@ -1,0 +1,4 @@
+-- SELECT * FROM steps WHERE type='receive' AND data NOT LIKE '%HTTP%'; -- non-HTTP responses
+-- SELECT * FROM steps WHERE data LIKE '%HTTP%' AND type='receive' AND data NOT LIKE '%404%' ORDER BY data; -- non-404 HTTP responses
+-- SELECT * FROM steps WHERE test_case_index=11164; -- all entries from index
+-- SELECT * FROM steps WHERE data=null AND type='receive'; -- no response

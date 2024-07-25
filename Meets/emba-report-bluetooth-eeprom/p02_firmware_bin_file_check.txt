@@ -1,0 +1,36 @@
+[[0;34m+[0m] [0;36m[1mBinary firmware file analyzer[0m
+[1m=================================================================[0m
+[[0;33m*[0m] Entropy testing with binwalk ... 
+
+DECIMAL       HEXADECIMAL     ENTROPY
+--------------------------------------------------------------------------------
+0             0x0             Falling entropy edge (0.663086)
+2048          0x800           Falling entropy edge (0.425781)
+8192          0x2000          Falling entropy edge (0.016602)
+
+[[0;33m*[0m] Details of the firmware file:
+
+    -rwxrwxrwx 1 linuxbrew linuxbrew 16K Nov 28 11:17 /firmware
+
+
+    /firmware: data
+
+00000000  03 05 04 17 f0 ff ff ff  00 ff 00 02 00 ff 80 0a  |................|
+00000010  00 ff 00 02 00 ff 4c 09  ff ff ff ff ff ff ff ff  |......L.........|
+00000020  ff ff ff ff ff ff ff ff  ff ff ff ff ff ff ff ff  |................|
+00000030  ff ff ff ff ff ff ff ff  ff 00 00 00 ff 00 00 00  |................|
+00000040  00 00 00 00 06 00 00 00  e8 03 00 00 0a 00 01 00  |................|
+00000050  33 e8 18 ff 41 4d 00 00  00 00 00 00 4d 78 64 42  |3...AM......MxdB|
+00000060  6c 65 00 00 00 00 00 00  00 00 00 00 4c 00 02 15  |le..........L...|
+00000070  fd a5 06 93 a4 e2 4f b1  af cf c6 eb 07 64 78 25  |......O......dx%|
+00000080  27 25 7f 16 c5 00 38 38  38 38 38 38 06 19 63 00  |'%....888888..c.|
+00000090  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+
+[[0;33m*[0m] SHA512 checksum: [0;33m305bc3f72772ea6345a1f9a562241f7e9d8b02e5993a830944b6815b6a853faa170aba415d211e767281bdb69869256595419fc491b96ffe398c81345429dd43[0m
+
+    4.382837 bits per byte.
+
+[[0;33m*[0m] Visualized firmware file (first 2000 bytes):
+
+
+

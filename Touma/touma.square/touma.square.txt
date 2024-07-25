@@ -1,0 +1,744 @@
+
+Scan Time:     2024-01-27 22:11:33
+Target File:   /home/princesspi/touma.square.bin
+MD5 Checksum:  bc35232b72233ade22c4f294443b1cb5
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+5861          0x16E5          ARM executable code, 16-bit (Thumb), big endian, at least 581 valid instructions
+5861          0x16E5          vmls.i32 d19, d21, d12[1]
+5865          0x16E9          lsrs r0, r5, #0xb
+5867          0x16EB          b #0x1157
+5869          0x16ED          b #0x1505
+5871          0x16EF          strd r4, r1, [r5, #0x194]!
+5875          0x16F3          cmp r5, #0xe6
+5877          0x16F5          adds r4, #0x49
+5879          0x16F7          ldr r5, [pc, #0x390]
+5881          0x16F9          str r4, [r4, #0x14]
+5883          0x16FB          ldr r5, [pc, #0x3d0]
+5885          0x16FD          str r5, [r4, #0x14]
+5887          0x16FF          ldr r5, [pc, #0x36c]
+5889          0x1701          str r6, [r4, #0x14]
+5891          0x1703          stm r4!, {r0, r1, r2, r5, r6, r7}
+5893          0x1705          strh r1, [r0, #0x22]
+5895          0x1707          strb r1, [r4, #0x16]
+5897          0x1709          ldrb r5, [r5, #0x14]
+5899          0x170B          subs r4, r6, r4
+5901          0x170D          b #0x17ab
+5903          0x170F          b #0x11db
+5905          0x1711          stc2l p8, c2, [sp, #-0x184]
+5909          0x1715          str r5, [r1, #0x44]
+5911          0x1717          bpl #0x17dd
+5913          0x1719          str r5, [r1, #0x54]
+5915          0x171B          b #0xfe1
+5917          0x171D          str r5, [r1, #0x64]
+5919          0x171F          bfi r7, r1, #0xd, #1
+5923          0x1723          b #0xfe9
+5925          0x1725          str r4, [r0, #0xc]
+5927          0x1727          subs r2, #0x84
+5929          0x1729          ldr r5, [pc, #0x390]
+5931          0x172B          ldr r6, [r5, #0x1c]
+5933          0x172D          b #0x1239
+5935          0x172F          sub sp, #0x2c
+5937          0x1731          ldrh r5, [r3, #0x14]
+5939          0x1733          stm r4!, {r0, r1, r2, r5, r6, r7}
+5941          0x1735          strh r2, [r0, #0x20]
+5943          0x1737          str r4, [r6, #0x40]
+5945          0x1739          b #0x1b41
+5947          0x173B          str r4, [r6, #0x50]
+5949          0x173D          b #0x1345
+5951          0x173F          str r2, [r0, #0x64]
+5953          0x1741          str r1, [r0, #0x44]
+5955          0x1743          ldr r1, [r4, #0x18]
+5957          0x1745          ldrb r4, [r0, #0x16]
+5959          0x1747          ldr r5, [pc, #0x378]
+5961          0x1749          ldr r4, [r4, #0x1c]
+5963          0x174B          str r5, [r1, #0x44]
+5965          0x174D          b #0x1a23
+5967          0x174F          b #0xf9b
+5969          0x1751          ldr r5, [pc, #0x348]
+5971          0x1753          ldr r4, [r4, #0x1c]
+5973          0x1755          str r5, [r1, #0x44]
+5975          0x1757          add r1, sp, r1
+5977          0x1759          b #0xfa5
+5979          0x175B          ldr r5, [pc, #0x68]
+5981          0x175D          ldr r4, [r4, #0x1c]
+5983          0x175F          str r5, [r1, #0x44]
+5985          0x1761          lsrs r1, r5, #0xd
+5987          0x1763          b #0x102f
+5989          0x1765          ldr r5, [pc, #0x130]
+5991          0x1767          ldr r4, [r4, #0x1c]
+5993          0x1769          str r5, [r1, #0x44]
+5995          0x176B          b #0x1441
+5997          0x176D          b #0xfb9
+5999          0x176F          ldr r5, [pc, #0x390]
+6001          0x1771          ldr r4, [r4, #0x1c]
+6003          0x1773          movs r4, #0x4d
+6005          0x1775          b #0x104b
+6007          0x1777          b #0xfc3
+6009          0x1779          ldr r5, [pc, #0x10c]
+6011          0x177B          ldr r4, [r4, #0x1c]
+6013          0x177D          str r5, [r1, #0x44]
+6015          0x177F          b #0x1855
+6017          0x1781          b #0xfcd
+6019          0x1783          ldr r5, [pc, #0x38]
+6021          0x1785          ldr r4, [r4, #0x1c]
+6023          0x1787          str r5, [r1, #0x44]
+6025          0x1789          udf #0x69
+6027          0x178B          b #0xfd7
+6029          0x178D          ldr r5, [pc, #0x140]
+6031          0x178F          ldr r4, [r4, #0x1c]
+6033          0x1791          str r5, [r1, #0x44]
+6035          0x1793          b #0x1069
+6037          0x1795          b #0xfe1
+6039          0x1797          ldr r5, [pc, #0x6c]
+6041          0x1799          ldr r4, [r4, #0x1c]
+6043          0x179B          str r5, [r1, #0x44]
+6045          0x179D          blx #0xffb6afe8
+6049          0x17A1          ldr r5, [pc, #0x64]
+6051          0x17A3          ldr r4, [r4, #0x1c]
+6053          0x17A5          str r5, [r1, #0x44]
+6055          0x17A7          strd lr, r4, [sb, #-0x90]!
+6059          0x17AB          ldr r5, [pc, #0x100]
+6061          0x17AD          ldr r4, [r4, #0x1c]
+6063          0x17AF          str r5, [r1, #0x44]
+6065          0x17B1          stcl p4, c14, [sb, #-0x90]!
+6069          0x17B5          ldr r5, [pc, #0xc]
+6071          0x17B7          ldr r4, [r4, #0x1c]
+6073          0x17B9          str r5, [r1, #0x44]
+6075          0x17BB          strb r1, [r5, #1]
+6077          0x17BD          b #0x1009
+6079          0x17BF          ldr r5, [pc, #0x1b0]
+6081          0x17C1          ldr r4, [r4, #0x1c]
+6083          0x17C3          movs r4, #0x4d
+6085          0x17C5          lsrs r1, r5, #5
+6087          0x17C7          b #0x1093
+6089          0x17C9          ldr r5, [pc, #0x3d4]
+6091          0x17CB          ldr r4, [r4, #0x1c]
+6093          0x17CD          movs r4, #0x4d
+6095          0x17CF          lsls r1, r5, #1
+6097          0x17D1          b #0x109d
+6099          0x17D3          ldr r5, [pc, #0x84]
+6101          0x17D5          ldr r4, [r4, #0x1c]
+6103          0x17D7          movs r4, #0x4d
+6105          0x17D9          lsls r1, r5, #0x19
+6107          0x17DB          b #0x10a7
+6109          0x17DD          ldr r5, [pc, #0x190]
+6111          0x17DF          ldr r4, [r4, #0x1c]
+6113          0x17E1          movs r4, #0x4d
+6115          0x17E3          bx sp
+6117          0x17E5          b #0x10b1
+6119          0x17E7          ldr r5, [pc, #0x3b4]
+6121          0x17E9          ldr r4, [r4, #0x1c]
+6123          0x17EB          movs r4, #0x4d
+6125          0x17ED          lsls r1, r5, #0x1d
+6127          0x17EF          b #0x10bb
+6129          0x17F1          ldr r5, [pc, #0x38c]
+6131          0x17F3          ldr r4, [r4, #0x1c]
+6133          0x17F5          movs r4, #0x4d
+6135          0x17F7          lsls r1, r5, #5
+6137          0x17F9          b #0x10c5
+6139          0x17FB          ldr r5, [pc, #0x3d0]
+6141          0x17FD          ldr r4, [r4, #0x1c]
+6143          0x17FF          movs r4, #0x4d
+6145          0x1801          bne #0x18d7
+6147          0x1803          b #0x10cf
+6149          0x1805          ldr r5, [pc, #0x390]
+6151          0x1807          ldr r4, [r4, #0x1c]
+6153          0x1809          movs r4, #0x4d
+6155          0x180B          asrs r1, r5, #0x11
+6157          0x180D          b #0x10d9
+6159          0x180F          ldr r5, [pc, #0x3d0]
+6161          0x1811          ldr r4, [r4, #0x1c]
+6163          0x1813          movs r4, #0x4d
+6165          0x1815          asrs r1, r5, #0x15
+6167          0x1817          b #0x10e3
+6169          0x1819          ldr r5, [pc, #0x388]
+6171          0x181B          ldr r4, [r4, #0x1c]
+6173          0x181D          movs r4, #0x4d
+6175          0x181F          asrs r1, r5, #0x19
+6177          0x1821          b #0x10ed
+6179          0x1823          ldr r5, [pc, #0x390]
+6181          0x1825          ldr r4, [r4, #0x1c]
+6183          0x1827          movs r4, #0x4d
+6185          0x1829          asrs r1, r5, #0x1d
+6187          0x182B          b #0x10f7
+6189          0x182D          ldr r5, [pc, #0x240]
+6191          0x182F          ldr r4, [r4, #0x1c]
+6193          0x1831          movs r4, #0x4d
+6195          0x1833          asrs r1, r5, #1
+6197          0x1835          b #0x1101
+6199          0x1837          ldr r5, [pc, #0x390]
+6201          0x1839          ldr r4, [r4, #0x1c]
+6203          0x183B          movs r4, #0x4d
+6205          0x183D          asrs r1, r5, #5
+6207          0x183F          b #0x110b
+6209          0x1841          ldr r5, [pc, #0x390]
+6211          0x1843          ldr r4, [r4, #0x1c]
+6213          0x1845          movs r4, #0x4d
+6215          0x1847          asrs r1, r5, #0xd
+6217          0x1849          b #0x1115
+6219          0x184B          ldr r5, [pc, #0x28c]
+6221          0x184D          ldr r4, [r4, #0x1c]
+6223          0x184F          movs r4, #0x4d
+6225          0x1851          adds r1, r5, #1
+6227          0x1853          b #0x111f
+6229          0x1855          ldr r5, [pc, #0x390]
+6231          0x1857          ldr r4, [r4, #0x1c]
+6233          0x1859          movs r4, #0x4d
+6235          0x185B          adds r1, r5, #5
+6237          0x185D          b #0x1129
+6239          0x185F          ldr r5, [pc, #0x24c]
+6241          0x1861          ldr r4, [r4, #0x1c]
+6243          0x1863          movs r4, #0x4d
+6245          0x1865          subs r1, r5, #1
+6247          0x1867          b #0x1133
+6249          0x1869          ldr r5, [pc, #0x280]
+6251          0x186B          ldr r4, [r4, #0x1c]
+6253          0x186D          movs r4, #0x4d
+6255          0x186F          subs r1, r5, #5
+6257          0x1871          b #0x113d
+6259          0x1873          ldr r5, [pc, #0x390]
+6261          0x1875          ldr r4, [r4, #0x1c]
+6263          0x1877          movs r4, #0x4d
+6265          0x1879          adds r1, r5, r1
+6267          0x187B          b #0x1147
+6269          0x187D          ldr r5, [pc, #0x390]
+6271          0x187F          ldr r4, [r4, #0x1c]
+6273          0x1881          movs r4, #0x4d
+6275          0x1883          ldm r5, {r0, r3, r5, r6}
+6277          0x1885          b #0x1151
+6279          0x1887          strh r5, [r1, #0x22]
+6281          0x1889          str r1, [r5, r1]
+6283          0x188B          b #0x1157
+6285          0x188D          ldr r5, [pc, #0x390]
+6287          0x188F          ldr r4, [r4, #0x1c]
+6289          0x1891          movs r4, #0x4d
+6291          0x1893          strb r1, [r5, r5]
+6293          0x1895          b #0x1161
+6295          0x1897          ldr r5, [pc, #0x3c0]
+6297          0x1899          ldr r4, [r4, #0x1c]
+6299          0x189B          movs r4, #0x4d
+6301          0x189D          subs r1, r5, r5
+6303          0x189F          b #0x116b
+6305          0x18A1          ldr r5, [pc, #0x104]
+6307          0x18A3          ldr r4, [r4, #0x1c]
+6309          0x18A5          movs r4, #0x4d
+6311          0x18A7          adds r1, r5, r5
+6313          0x18A9          b #0x1175
+6315          0x18AB          ldr r5, [pc, #0x188]
+6317          0x18AD          ldr r4, [r4, #0x1c]
+6319          0x18AF          movs r4, #0x4d
+6321          0x18B1          lsrs r1, r5, #5
+6323          0x18B3          b #0x117f
+6325          0x18B5          ldr r5, [pc, #0x304]
+6327          0x18B7          ldr r4, [r4, #0x1c]
+6329          0x18B9          movs r4, #0x4d
+6331          0x18BB          lsrs r1, r5, #9
+6333          0x18BD          b #0x1189
+6335          0x18BF          ldr r5, [pc, #0x318]
+6337          0x18C1          ldr r4, [r4, #0x1c]
+6339          0x18C3          movs r4, #0x4d
+6341          0x18C5          asrs r1, r5, #9
+6343          0x18C7          b #0x1193
+6345          0x18C9          ldr r5, [pc, #0x3d0]
+6347          0x18CB          ldr r4, [r4, #0x1c]
+6349          0x18CD          movs r4, #0x4d
+6351          0x18CF          movs r0, #0x69
+6353          0x18D1          b #0x119d
+6355          0x18D3          ldr r5, [pc, #0x3a4]
+6357          0x18D5          ldr r4, [r4, #0x1c]
+6359          0x18D7          movs r4, #0x4d
+6361          0x18D9          movs r1, #0x69
+6363          0x18DB          b #0x11a7
+6365          0x18DD          ldr r5, [pc, #0x288]
+6367          0x18DF          ldr r4, [r4, #0x1c]
+6369          0x18E1          movs r4, #0x4d
+6371          0x18E3          movs r2, #0x69
+6373          0x18E5          b #0x11b1
+6375          0x18E7          ldr r5, [pc, #0x3ec]
+6377          0x18E9          ldr r4, [r4, #0x1c]
+6379          0x18EB          movs r4, #0x4d
+6381          0x18ED          movs r3, #0x69
+6383          0x18EF          b #0x11bb
+6385          0x18F1          ldr r5, [pc, #0x28c]
+6387          0x18F3          ldr r4, [r4, #0x1c]
+6389          0x18F5          movs r4, #0x4d
+6391          0x18F7          lsls r1, r5, #0x11
+6393          0x18F9          b #0x11c5
+6395          0x18FB          ldr r5, [pc, #0x250]
+6397          0x18FD          ldr r4, [r4, #0x1c]
+6399          0x18FF          movs r4, #0x4d
+6401          0x1901          lsrs r1, r5, #0x11
+6403          0x1903          b #0x11cf
+6405          0x1905          ldr r5, [pc, #0x38c]
+6407          0x1907          ldr r4, [r4, #0x1c]
+6409          0x1909          movs r4, #0x4d
+6411          0x190B          lsls r1, r5, #0x15
+6413          0x190D          b #0x11d9
+6415          0x190F          ldr r5, [pc, #0x358]
+6417          0x1911          ldr r4, [r4, #0x1c]
+6419          0x1913          movs r4, #0x4d
+6421          0x1915          lsls r1, r5, #0xd
+6423          0x1917          b #0x11e3
+6425          0x1919          ldr r5, [pc, #0x39c]
+6427          0x191B          ldr r4, [r4, #0x1c]
+6429          0x191D          movs r4, #0x4d
+6431          0x191F          lsls r1, r5, #0x19
+6433          0x1921          b #0x11ed
+6435          0x1923          ldr r5, [pc, #0x24c]
+6437          0x1925          ldr r4, [r4, #0x1c]
+6439          0x1927          movs r4, #0x4d
+6441          0x1929          lsls r1, r5, #9
+6443          0x192B          b #0x11f7
+6445          0x192D          ldr r5, [pc, #0x24c]
+6447          0x192F          ldr r4, [r4, #0x1c]
+6449          0x1931          movs r4, #0x4d
+6451          0x1933          lsls r1, r5, #0x1d
+6453          0x1935          b #0x1201
+6455          0x1937          ldr r5, [pc, #0x3cc]
+6457          0x1939          ldr r4, [r4, #0x1c]
+6459          0x193B          movs r4, #0x4d
+6461          0x193D          lsrs r1, r5, #0x15
+6463          0x193F          b #0x120b
+6465          0x1941          ldr r5, [pc, #0x24c]
+6467          0x1943          ldr r4, [r4, #0x1c]
+6469          0x1945          movs r4, #0x4d
+6471          0x1947          lsls r1, r5, #1
+6473          0x1949          b #0x1215
+6475          0x194B          ldr r5, [pc, #0x390]
+6477          0x194D          ldr r4, [r4, #0x1c]
+6479          0x194F          movs r4, #0x4d
+6481          0x1951          lsrs r1, r5, #0x1d
+6483          0x1953          b #0x121f
+6485          0x1955          ldr r5, [pc, #0x384]
+6487          0x1957          ldr r4, [r4, #0x1c]
+6489          0x1959          movs r4, #0x4d
+6491          0x195B          lsls r1, r5, #5
+6493          0x195D          b #0x1229
+6495          0x195F          ldr r5, [pc, #0x390]
+6497          0x1961          ldr r4, [r4, #0x1c]
+6499          0x1963          movs r4, #0x4d
+6501          0x1965          lsrs r1, r5, #0x19
+6503          0x1967          b #0x1233
+6505          0x1969          ldr r5, [pc, #0x390]
+6507          0x196B          ldr r4, [r4, #0x1c]
+6509          0x196D          movs r4, #0x4d
+6511          0x196F          blx #0xff96b238
+6515          0x1973          ldr r5, [pc, #0x378]
+6517          0x1975          ldr r4, [r4, #0x1c]
+6519          0x1977          str r5, [r1, #0x44]
+6521          0x1979          b #0x1c4f
+6523          0x197B          b #0x11c7
+6525          0x197D          ldr r5, [pc, #0x348]
+6527          0x197F          ldr r4, [r4, #0x1c]
+6529          0x1981          str r5, [r1, #0x44]
+6531          0x1983          lsls r1, r5, #1
+6533          0x1985          b #0x11d1
+6535          0x1987          ldr r5, [pc, #0x334]
+6537          0x1989          ldr r4, [r4, #0x1c]
+6539          0x198B          str r4, [r0, #0x48]
+6541          0x198D          ldr r5, [pc, #0x308]
+6543          0x198F          ldr r4, [r4, #0x1c]
+6545          0x1991          str r5, [r1, #0x44]
+6547          0x1993          b #0x1a69
+6549          0x1995          b #0x11e1
+6551          0x1997          ldr r5, [pc, #0x154]
+6553          0x1999          ldr r4, [r4, #0x1c]
+6555          0x199B          str r5, [r1, #0x44]
+6557          0x199D          strd lr, r4, [sb], #-0x90
+6561          0x19A1          ldr r5, [pc, #0x3c0]
+6563          0x19A3          ldr r4, [r4, #0x1c]
+6565          0x19A5          movs r4, #0x4d
+6567          0x19A7          movs r4, #0x69
+6569          0x19A9          b #0x1275
+6571          0x19AB          ldr r5, [pc, #0x3a0]
+6573          0x19AD          ldr r4, [r4, #0x1c]
+6575          0x19AF          movs r4, #0x4d
+6577          0x19B1          b #0x1c87
+6579          0x19B3          b #0x11ff
+6581          0x19B5          ldr r5, [pc, #0x94]
+6583          0x19B7          ldr r4, [r4, #0x1c]
+6585          0x19B9          str r5, [r1, #0x44]
+6587          0x19BB          b #0x1691
+6589          0x19BD          b #0x1209
+6591          0x19BF          ldr r5, [pc, #0x84]
+6593          0x19C1          ldr r4, [r4, #0x1c]
+6595          0x19C3          str r5, [r1, #0x44]
+6597          0x19C5          ldm r5, {r0, r3, r5, r6}
+6599          0x19C7          b #0x1213
+6601          0x19C9          ldr r5, [pc, #0x29c]
+6603          0x19CB          ldr r4, [r4, #0x1c]
+6605          0x19CD          movs r4, #0x4d
+6607          0x19CF          movs r3, #0x69
+6609          0x19D1          b #0x129d
+6611          0x19D3          ldr r5, [pc, #0x290]
+6613          0x19D5          ldr r4, [r4, #0x1c]
+6615          0x19D7          movs r4, #0x4d
+6617          0x19D9          udf #0x69
+6619          0x19DB          b #0x12a7
+6621          0x19DD          ldr r5, [pc, #0x384]
+6623          0x19DF          ldr r4, [r4, #0x1c]
+6625          0x19E1          movs r4, #0x4d
+6627          0x19E3          bhs #0x1ab9
+6629          0x19E5          b #0x12b1
+6631          0x19E7          ldr r5, [pc, #0x110]
+6633          0x19E9          ldr r4, [r4, #0x1c]
+6635          0x19EB          movs r4, #0x4d
+6637          0x19ED          strh r1, [r5, r5]
+6639          0x19EF          b #0x12bb
+6641          0x19F1          ldr r5, [pc, #0x390]
+6643          0x19F3          ldr r4, [r4, #0x1c]
+6645          0x19F5          movs r4, #0x4d
+6647          0x19F7          asrs r1, r5, #0x19
+6649          0x19F9          b #0x12c5
+6651          0x19FB          ldr r5, [pc, #0x394]
+6653          0x19FD          ldr r4, [r4, #0x1c]
+6655          0x19FF          movs r4, #0x4d
+6657          0x1A01          lsls r1, r5, #0x11
+6659          0x1A03          b #0x12cf
+6661          0x1A05          ldr r5, [pc, #0x348]
+6663          0x1A07          ldr r4, [r4, #0x1c]
+6665          0x1A09          movs r4, #0x4d
+6667          0x1A0B          ldm r5, {r0, r3, r5, r6}
+6669          0x1A0D          b #0x1259
+6671          0x1A0F          ldr r5, [pc, #0x3d8]
+6673          0x1A11          ldr r4, [r4, #0x1c]
+6675          0x1A13          movs r4, #0x4d
+6677          0x1A15          stm r6!, {r0, r3, r5, r6}
+6679          0x1A17          b #0x1263
+6681          0x1A19          ldr r5, [pc, #0x3e0]
+6683          0x1A1B          ldr r4, [r4, #0x1c]
+6685          0x1A1D          movs r4, #0x4d
+6687          0x1A1F          blx #0x56b268
+6691          0x1A23          ldr r5, [pc, #0x298]
+6693          0x1A25          ldr r4, [r4, #0x1c]
+6695          0x1A27          movs r4, #0x4d
+6697          0x1A29          strh r1, [r5, r5]
+6699          0x1A2B          b #0x1277
+6701          0x1A2D          ldr r5, [pc, #0x32c]
+6703          0x1A2F          ldr r4, [r4, #0x1c]
+6705          0x1A31          movs r4, #0x4d
+6707          0x1A33          blx #0xffb6b27c
+6711          0x1A37          ldr r5, [pc, #0x3d8]
+6713          0x1A39          ldr r4, [r4, #0x1c]
+6715          0x1A3B          movs r4, #0x4d
+6717          0x1A3D          cdp p4, #6, c14, c9, c4, #1
+6721          0x1A41          ldr r5, [pc, #0x3d4]
+6723          0x1A43          ldr r4, [r4, #0x1c]
+6725          0x1A45          movs r4, #0x4d
+6727          0x1A47          vshl.s32 d30, d20, d9
+6731          0x1A4B          ldr r5, [pc, #0x388]
+6733          0x1A4D          ldr r4, [r4, #0x1c]
+6735          0x1A4F          movs r4, #0x4d
+6737          0x1A51          lsls r1, r5, #0x15
+6739          0x1A53          b #0x131f
+6741          0x1A55          ldr r5, [pc, #0x3b4]
+6743          0x1A57          ldr r4, [r4, #0x1c]
+6745          0x1A59          movs r4, #0x4d
+6747          0x1A5B          blx #0x66b2a4
+6751          0x1A5F          ldr r5, [pc, #0x324]
+6753          0x1A61          ldr r4, [r4, #0x1c]
+6755          0x1A63          movs r4, #0x4d
+6757          0x1A65          strd lr, r4, [sb, #-0x90]!
+6761          0x1A69          ldr r5, [pc, #0x3dc]
+6763          0x1A6B          ldr r4, [r4, #0x1c]
+6765          0x1A6D          movs r4, #0x4d
+6767          0x1A6F          blx #0x56b2b8
+6771          0x1A73          ldr r5, [pc, #0x290]
+6773          0x1A75          ldr r4, [r4, #0x1c]
+6775          0x1A77          movs r4, #0x4d
+6777          0x1A79          add r4, sp, #0x1a4
+6779          0x1A7B          b #0x12c7
+6781          0x1A7D          ldr r5, [pc, #0x2dc]
+6783          0x1A7F          ldr r4, [r4, #0x1c]
+6785          0x1A81          movs r4, #0x4d
+6787          0x1A83          strd lr, r4, [sb], #-0x90
+6791          0x1A87          ldr r5, [pc, #0x3e4]
+6793          0x1A89          ldr r4, [r4, #0x1c]
+6795          0x1A8B          movs r4, #0x4d
+6797          0x1A8D          stm r1!, {r0, r3, r5, r6}
+6799          0x1A8F          b #0x12db
+6801          0x1A91          ldr r5, [pc, #0x328]
+6803          0x1A93          ldr r4, [r4, #0x1c]
+6805          0x1A95          movs r4, #0x4d
+6807          0x1A97          beq #0x1b6d
+6809          0x1A99          b #0x12e5
+6811          0x1A9B          ldr r5, [pc, #0x374]
+6813          0x1A9D          ldr r4, [r4, #0x1c]
+6815          0x1A9F          movs r4, #0x4d
+6817          0x1AA1          ldm r5, {r0, r3, r5, r6}
+6819          0x1AA3          b #0x136f
+6821          0x1AA5          strh r5, [r1, #0x22]
+6823          0x1AA7          strb r1, [r5, r5]
+6825          0x1AA9          b #0x1375
+6827          0x1AAB          ldr r5, [pc, #0x394]
+6829          0x1AAD          ldr r4, [r4, #0x1c]
+6831          0x1AAF          movs r4, #0x4d
+6833          0x1AB1          ldm r0, {r0, r3, r5, r6}
+6835          0x1AB3          b #0x12ff
+6837          0x1AB5          ldr r5, [pc, #0x324]
+6839          0x1AB7          ldr r4, [r4, #0x1c]
+6841          0x1AB9          movs r4, #0x4d
+6843          0x1ABB          ldrsb r1, [r5, r1]
+6845          0x1ABD          b #0x1389
+6847          0x1ABF          ldr r5, [pc, #0x394]
+6849          0x1AC1          ldr r4, [r4, #0x1c]
+6851          0x1AC3          movs r4, #0x4d
+6853          0x1AC5          ldm r0, {r0, r3, r5, r6}
+6855          0x1AC7          b #0x1313
+6857          0x1AC9          ldr r5, [pc, #0x324]
+6859          0x1ACB          ldr r4, [r4, #0x1c]
+6861          0x1ACD          movs r4, #0x4d
+6863          0x1ACF          ldrsb r1, [r5, r5]
+6865          0x1AD1          b #0x139d
+6867          0x1AD3          ldr r5, [pc, #0x394]
+6869          0x1AD5          ldr r4, [r4, #0x1c]
+6871          0x1AD7          movs r4, #0x4d
+6873          0x1AD9          ldm r0, {r0, r3, r5, r6}
+6875          0x1ADB          b #0x1327
+6877          0x1ADD          ldr r5, [pc, #0x324]
+6879          0x1ADF          ldr r4, [r4, #0x1c]
+6881          0x1AE1          movs r4, #0x4d
+6883          0x1AE3          b #0x15b9
+6885          0x1AE5          b #0x1331
+6887          0x1AE7          ldr r5, [pc, #0x320]
+6889          0x1AE9          ldr r4, [r4, #0x1c]
+6891          0x1AEB          movs r4, #0x4d
+6893          0x1AED          ldm r1!, {r0, r3, r5, r6}
+6895          0x1AEF          b #0x133b
+6897          0x1AF1          ldr r5, [pc, #0x140]
+6899          0x1AF3          ldr r4, [r4, #0x1c]
+6901          0x1AF5          str r5, [r1, #0x44]
+6903          0x1AF7          b #0x21cd
+6905          0x1AF9          b #0x1345
+6907          0x1AFB          ldr r5, [pc, #0x148]
+6909          0x1AFD          ldr r4, [r4, #0x1c]
+6911          0x1AFF          str r5, [r1, #0x44]
+6913          0x1B01          str r1, [r5, r1]
+6915          0x1B03          b #0x134f
+6917          0x1B05          ldr r5, [pc, #0x50]
+6919          0x1B07          ldr r4, [r4, #0x1c]
+6921          0x1B09          movs r4, #0x4d
+6923          0x1B0B          movs r4, #0x69
+6925          0x1B0D          b #0x13d9
+6927          0x1B0F          ldr r5, [pc, #0x118]
+6929          0x1B11          ldr r4, [r4, #0x1c]
+6931          0x1B13          movs r4, #0x4d
+6933          0x1B15          b #0x17eb
+6935          0x1B17          b #0x1363
+6937          0x1B19          ldr r5, [pc, #0x180]
+6939          0x1B1B          ldr r4, [r4, #0x1c]
+6941          0x1B1D          movs r4, #0x4d
+6943          0x1B1F          movs r5, #0x69
+6945          0x1B21          b #0x13ed
+6947          0x1B23          ldr r5, [pc, #0x84]
+6949          0x1B25          ldr r4, [r4, #0x1c]
+6951          0x1B27          movs r4, #0x4d
+6953          0x1B29          movs r6, #0x69
+6955          0x1B2B          b #0x13f7
+6957          0x1B2D          ldr r5, [pc, #0x3b8]
+6959          0x1B2F          ldr r4, [r4, #0x1c]
+6961          0x1B31          movs r4, #0x4d
+6963          0x1B33          b #0x1409
+6965          0x1B35          b #0x1381
+6967          0x1B37          ldr r5, [pc, #0x9c]
+6969          0x1B39          ldr r4, [r4, #0x1c]
+6971          0x1B3B          str r5, [r1, #0x44]
+6973          0x1B3D          ldr r1, [r5, #0x64]
+6975          0x1B3F          b #0x138b
+6977          0x1B41          ldr r5, [pc, #0x338]
+6979          0x1B43          ldr r4, [r4, #0x1c]
+6981          0x1B45          movs r4, #0x4d
+6983          0x1B47          movs r0, #0x69
+6985          0x1B49          b #0x1415
+6987          0x1B4B          ldr r5, [pc, #0x1b8]
+6989          0x1B4D          ldr r4, [r4, #0x1c]
+6991          0x1B4F          movs r4, #0x4d
+6993          0x1B51          lsrs r1, r5, #9
+6995          0x1B53          b #0x139f
+6997          0x1B55          ldr r5, [pc, #0x84]
+6999          0x1B57          ldr r4, [r4, #0x1c]
+7001          0x1B59          str r5, [r1, #0x44]
+7003          0x1B5B          blx #0xff86b3a4
+7007          0x1B5F          ldr r5, [pc, #0x348]
+7009          0x1B61          ldr r4, [r4, #0x1c]
+7011          0x1B63          str r5, [r1, #0x44]
+7013          0x1B65          b #0x143b
+7015          0x1B67          b #0x13b3
+7017          0x1B69          ldr r5, [pc, #0x10]
+7019          0x1B6B          ldr r4, [r4, #0x1c]
+7021          0x1B6D          str r5, [r1, #0x44]
+7023          0x1B6F          sbc.w r4, sb, r4, asr #24
+7027          0x1B73          ldr r5, [pc, #0x3f8]
+7029          0x1B75          ldr r4, [r4, #0x1c]
+7031          0x1B77          movs r4, #0x4d
+7033          0x1B79          sbc.w r4, sb, r4, asr #24
+7037          0x1B7D          ldr r5, [pc, #0x3f0]
+7039          0x1B7F          ldr r4, [r4, #0x1c]
+7041          0x1B81          movs r4, #0x4d
+7043          0x1B83          ldm r3, {r0, r3, r5, r6}
+7045          0x1B85          b #0x13d1
+7047          0x1B87          ldr r5, [pc, #0x330]
+7049          0x1B89          ldr r4, [r4, #0x1c]
+7051          0x1B8B          movs r4, #0x4d
+7053          0x1B8D          stm r4!, {r0, r3, r5, r6}
+7055          0x1B8F          b #0x13db
+7057          0x1B91          ldr r5, [pc, #0x318]
+7059          0x1B93          ldr r4, [r4, #0x1c]
+7061          0x1B95          movs r4, #0x4d
+
+
+Scan Time:     2024-01-27 22:11:43
+Target File:   /home/princesspi/touma.square.bin
+MD5 Checksum:  bc35232b72233ade22c4f294443b1cb5
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+4194302       0x3FFFFE        Raw LZMA compression stream, properties: 0x6E [pb: 2, lp: 0, lc: 0], dictionary size: 33554432
+
+
+Scan Time:     2024-01-27 23:58:56
+Target File:   /home/princesspi/_touma.square.bin.extracted/3FFFFE
+MD5 Checksum:  f7d737f6fe5faeffd5594fc943812d60
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:09
+Target File:   /home/princesspi/touma.square.bin
+MD5 Checksum:  bc35232b72233ade22c4f294443b1cb5
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+58837         0xE5D5          ARM instructions, function prologue
+105865        0x19D89         ARMEB instructions, function prologue
+119971        0x1D4A3         ARMEB instructions, function prologue
+740047        0xB4ACF         LZMA compressed data, properties: 0x7E, dictionary size: 100663296 bytes, uncompressed size: 112 bytes
+795494        0xC2366         LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3072 bytes
+959289        0xEA339         LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3584 bytes
+1147090       0x1180D2        LZMA compressed data, properties: 0x7E, dictionary size: 100663296 bytes, uncompressed size: 112 bytes
+1421189       0x15AF85        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 1536 bytes
+1872913       0x1C9411        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 1536 bytes
+2823449       0x2B1519        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3584 bytes
+2883373       0x2BFF2D        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3072 bytes
+2993498       0x2DAD5A        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3072 bytes
+3026936       0x2E2FF8        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3584 bytes
+3098382       0x2F470E        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 1536 bytes
+3649012       0x37ADF4        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 1536 bytes
+3876201       0x3B2569        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3072 bytes
+4019838       0x3D567E        LZMA compressed data, properties: 0xC0, dictionary size: 0 bytes, uncompressed size: 3072 bytes
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/B4ACF
+MD5 Checksum:  c20019258ca235d2408334dfbc5e67e3
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/C2366
+MD5 Checksum:  d2a70550489de356a2cd6bfc40711204
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/EA339
+MD5 Checksum:  b4202f7fe985b9648b4676e6f70832bd
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/1180D2
+MD5 Checksum:  c20019258ca235d2408334dfbc5e67e3
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/15AF85
+MD5 Checksum:  53e979547d8c2ea86560ac45de08ae25
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/1C9411
+MD5 Checksum:  53e979547d8c2ea86560ac45de08ae25
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/2B1519
+MD5 Checksum:  b4202f7fe985b9648b4676e6f70832bd
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/2BFF2D
+MD5 Checksum:  d2a70550489de356a2cd6bfc40711204
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/2DAD5A
+MD5 Checksum:  d2a70550489de356a2cd6bfc40711204
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/2E2FF8
+MD5 Checksum:  b4202f7fe985b9648b4676e6f70832bd
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/2F470E
+MD5 Checksum:  53e979547d8c2ea86560ac45de08ae25
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/37ADF4
+MD5 Checksum:  53e979547d8c2ea86560ac45de08ae25
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/3B2569
+MD5 Checksum:  d2a70550489de356a2cd6bfc40711204
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+
+
+Scan Time:     2024-01-28 00:13:14
+Target File:   /home/princesspi/_touma.square.bin-0.extracted/3D567E
+MD5 Checksum:  d2a70550489de356a2cd6bfc40711204
+Signatures:    445
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+

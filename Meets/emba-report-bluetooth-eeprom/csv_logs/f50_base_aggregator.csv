@@ -1,0 +1,8 @@
+FW_path;/mnt/c/Users/Human/OneDrive/Documents/Tamagotchi/Meets/bluetooth_eeprom_HT24LC128TSSOP8_kopernikus.BIN;NA;NA;NA;NA;NA;NA;NA;
+emba_command;./emba -l /home/princesspi/log -f /mnt/c/Users/Human/OneDrive/Documents/Tamagotchi/Meets/bluetooth_eeprom_HT24LC128TSSOP8_kopernikus.BIN -p ./scan-profiles/default-scan-gpt.emba;NA;NA;NA;NA;NA;NA;NA;
+architecture_verified;unknown;NA;NA;NA;NA;NA;NA;NA;
+architecture_unverified;8051 / ;NA;NA;NA;NA;NA;NA;NA;
+files;3;NA;NA;NA;NA;NA;NA;NA;
+directories;0;NA;NA;NA;NA;NA;NA;NA;
+entropy_value;4.382837 bits per byte.;NA;NA;NA;NA;NA;NA;NA;
+weak_perm_count;1;NA;NA;NA;NA;NA;NA;NA;

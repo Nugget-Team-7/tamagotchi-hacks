@@ -1,0 +1,12 @@
+[[0;34m+[0m] [0;36m[1mLighttpd analysis[0m
+[1m=================================================================[0m
+This module tests for lighttpd configuration files and binaries
+The configuration files are analysed for configuration issues.
+
+The tests of these configuration files is based on the following sources:
+    [0;33m- Lighttpd - Docs_SSL[0m
+    [0;33m- Alpine Linux - Lighttpd Advanced security[0m
+    [0;33m- Hardening guide for lighttpd 1.4.26 on redhat Linux[0m
+
+[[0;31m-[0m] No Lighttpd related configuration files found
+[[0;31m-[0m] Tue Nov 28 11:49:54 MST 2023 - S36_lighttpd nothing reported

@@ -1,0 +1,3 @@
+mkfifo /tmp/pipe
+ubertooth-btle -f -c /tmp/pipe
+#then config wireshark: capture->options->manage interfaces->pipes->new->+->"/tmp/pipe"

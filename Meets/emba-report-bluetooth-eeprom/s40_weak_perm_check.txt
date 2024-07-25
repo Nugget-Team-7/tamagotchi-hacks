@@ -1,0 +1,12 @@
+[[0;34m+[0m] [0;36m[1mSearch files with weak permissions[0m
+[1m=================================================================[0m
+
+[[0;31m-[0m] No setuid files found
+[[0;31m-[0m] No setgid files found
+[[0;32m+[0m][0;32m Found 1 world writeable files:[0m
+    firmware (-rwxrwxrwx linuxbrew linuxbrew)
+[[0;31m-[0m] No shadow files found
+[[0;31m-[0m] No rc.d files with weak permissions found
+[[0;31m-[0m] No init.d files with weak permissions found
+
+[*] Statistics:1

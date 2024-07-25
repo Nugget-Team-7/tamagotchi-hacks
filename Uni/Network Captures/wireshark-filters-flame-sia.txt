@@ -1,0 +1,2 @@
+flame and my unis filter for wireshark:
+wlan.sa == f4:12:fa:93:e0:dc || wlan.sa == 70:04:1d:b6:62:dc

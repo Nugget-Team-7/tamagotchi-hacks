@@ -1,0 +1,23 @@
+[[0;34m+[0m] [0;36m[1mCheck scripts with shellcheck and semgrep[0m
+[1m=================================================================[0m
+This module tries to identify shell scripts and analyses them with shellcheck - https://www.shellcheck.net/.
+
+
+[0;34m==>[0m [0;36mCheck scripts with shellcheck[0m
+-----------------------------------------------------------------
+
+
+[*] Statistics:0:0
+
+[0;34m==>[0m [0;36mCheck scripts with semgrep[0m
+-----------------------------------------------------------------
+
+
+[0;34m==>[0m [0;36mSummary of shell issues (semgrep)[0m
+-----------------------------------------------------------------
+
+[*] Statistics1:0:0
+
+[0;34m==>[0m [0;36mCheck shell scripts for eval usage[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] Tue Nov 28 11:49:55 MST 2023 - S20_shell_check nothing reported

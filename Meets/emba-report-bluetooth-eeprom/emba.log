@@ -1,0 +1,117 @@
+[[0;33m*[0m] Quest container emba_emba_quest_run_1685a3a2f187 started and detached.
+
+[[0;35m![0m][0;35m Pre-checking phase started on Tue Nov 28 11:49:44 MST 2023
+    [0mFirmware binary path: /firmware[0m
+[[0;33m*[0m] Tue Nov 28 11:49:44 MST 2023 - P02_firmware_bin_file_check starting
+[[0;33m*[0m] Quest container done
+[[0;33m*[0m] Tue Nov 28 11:49:48 MST 2023 - P02_firmware_bin_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:48 MST 2023 - P55_unblob_extractor starting
+[[0;33m*[0m] Tue Nov 28 11:49:49 MST 2023 - P55_unblob_extractor finished
+[[0;33m*[0m] Tue Nov 28 11:49:49 MST 2023 - P60_deep_extractor starting
+[[0;33m*[0m] Tue Nov 28 11:49:50 MST 2023 - P60_deep_extractor finished
+[[0;33m*[0m] Tue Nov 28 11:49:50 MST 2023 - P65_package_extractor starting
+[[0;33m*[0m] Tue Nov 28 11:49:50 MST 2023 - P65_package_extractor finished
+[[0;33m*[0m] Tue Nov 28 11:49:50 MST 2023 - P99_prepare_analyzer starting
+[[0;33m*[0m] Tue Nov 28 11:49:51 MST 2023 - P99_prepare_analyzer finished
+[[0;35m![0m][0;35m Pre-checking phase ended on Tue Nov 28 11:49:51 MST 2023 and took about 0 days and 00:00:10 
+[0m
+[[0;35m![0m][0;35m Testing phase started on Tue Nov 28 11:49:51 MST 2023
+    [0mFirmware path: /firmware[0m
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S106_deep_key_search starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S12_binary_protection starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S09_firmware_base_version_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S02_uefi_fwhunt starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S115_usermode_emulator finished
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S03_firmware_bin_base_analyzer starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S05_firmware_details starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S06_distribution_identification starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S07_bootloader_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S08_package_mgmt_extractor starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S10_binaries_basic_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S13_weak_func_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S12_binary_protection finished
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S02_UEFI_FwHunt finished
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S14_weak_func_radare_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S106_deep_key_search finished
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S15_radare_decompile_checks not executed - blacklist triggered 
+[[0;33m*[0m] Tue Nov 28 11:49:52 MST 2023 - S17_apk_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S20_shell_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S13_weak_func_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S14_weak_func_radare_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S08_package_mgmt_extractor finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S10_binaries_basic_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S21_python_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S17_apk_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S06_distribution_identification finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S22_php_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S23_lua_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S05_firmware_details finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S24_kernel_bin_identifier starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S21_python_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S25_kernel_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S26_kernel_vuln_verifier starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S07_bootloader_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S23_lua_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S35_http_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S24_kernel_bin_identifier finished
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S36_lighttpd starting
+[[0;33m*[0m] Tue Nov 28 11:49:53 MST 2023 - S40_weak_perm_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S45_pass_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S25_kernel_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S50_authentication_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S55_history_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S60_cert_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S36_lighttpd finished
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S45_pass_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S65_config_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S35_http_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S70_hidden_file_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S55_history_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S75_network_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:54 MST 2023 - S60_cert_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S26_kernel_vuln_verifier finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S80_cronjob_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S70_hidden_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S85_ssh_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S65_config_file_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S40_weak_perm_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S90_mail_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S80_cronjob_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S95_interesting_binaries_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S99_grepit not executed - blacklist triggered 
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S75_network_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S20_shell_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S90_mail_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S100_command_inj_check starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S107_deep_password_search starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S85_ssh_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S108_stacs_password_search starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S95_interesting_binaries_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S109_jtr_local_pw_cracking starting
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S100_command_inj_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:55 MST 2023 - S110_yara_check not executed - blacklist triggered 
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S107_deep_password_search finished
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S50_authentication_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S116_qemu_version_detection starting
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S116_qemu_version_detection finished
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S108_stacs_password_search finished
+[[0;33m*[0m] Tue Nov 28 11:49:56 MST 2023 - S22_php_check finished
+[[0;33m*[0m] Tue Nov 28 11:49:57 MST 2023 - S109_jtr_local_pw_cracking finished
+[[0;33m*[0m] Tue Nov 28 11:50:17 MST 2023 - S03_firmware_bin_base_analyzer finished
+[[0;33m*[0m] Tue Nov 28 11:50:51 MST 2023 - S09_firmware_base_version_check finished
+[[0;35m![0m][0;35m Testing phase ended on Tue Nov 28 11:50:51 MST 2023 and took about 0 days and 00:01:10 
+[0m
+[[0;35m![0m][0;35m Reporting phase started on Tue Nov 28 11:50:51 MST 2023
+[0m
+[[0;33m*[0m] Tue Nov 28 11:50:51 MST 2023 - F05_qs_resolver starting
+[[0;33m*[0m] Tue Nov 28 11:50:51 MST 2023 - F05_qs_resolver finished
+[[0;33m*[0m] Tue Nov 28 11:50:51 MST 2023 - F10_license_summary starting
+[[0;33m*[0m] Tue Nov 28 11:50:51 MST 2023 - F10_license_summary finished
+[[0;33m*[0m] Tue Nov 28 11:50:52 MST 2023 - F20_vul_aggregator starting
+[[0;33m*[0m] Tue Nov 28 11:51:17 MST 2023 - F20_vul_aggregator finished
+[[0;33m*[0m] Tue Nov 28 11:51:17 MST 2023 - F21_cyclonedx_sbom starting
+[[0;33m*[0m] Tue Nov 28 11:51:17 MST 2023 - F21_cyclonedx_sbom finished
+[[0;33m*[0m] Tue Nov 28 11:51:17 MST 2023 - F50_base_aggregator starting
+[[0;33m*[0m] Tue Nov 28 11:51:19 MST 2023 - F50_base_aggregator finished
+[[0;35m![0m][0;35m Test ended on Tue Nov 28 11:51:19 MST 2023 and took about 0 days and 00:01:38 
+[0m

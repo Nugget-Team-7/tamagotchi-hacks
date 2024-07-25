@@ -1,0 +1,6 @@
+[[0;34m+[0m] [0;36m[1mLicense inventory[0m
+[1m=================================================================[0m
+This module collects license details and creates a details on the identified binaries, versions and the corresponding license (if available). The license details are maintained in the configuration file config/bin_version_strings.cfg.
+
+
+[[0;31m-[0m] Tue Nov 28 11:50:51 MST 2023 - F10_license_summary nothing reported

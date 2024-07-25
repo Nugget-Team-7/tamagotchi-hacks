@@ -1,0 +1,15 @@
+[[0;34m+[0m] [0;36m[1mIdentify and analyze kernel version[0m
+[1m=================================================================[0m
+This module tries to identify the version of the used Linux kernel. The following sources are tested:
+    - Results of module s24
+    - Identified kernel modules in .ko format
+    - Identified kernel modules in .o format
+    - Filesytem path of kernel modules - e.g.: /lib/modules/1.2.3/bla
+
+Additionally it checks the identified kernel version with the linux-exploit-suggester (https://github.com/mzet-/linux-exploit-suggester) for known exploits.
+Finally it tests the kernel modules for interesting combination of closed source modules with debugging information. E.g. Non open source modules with debugging information included.
+
+[[0;31m-[0m] No kernel version identified
+[[0;31m-[0m] No check for kernel configuration
+[*] Statistics1:0:0
+[[0;31m-[0m] Tue Nov 28 11:49:54 MST 2023 - S25_kernel_check nothing reported

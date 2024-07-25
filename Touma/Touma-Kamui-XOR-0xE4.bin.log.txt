@@ -1,0 +1,14 @@
+
+Scan Time:     2024-06-22 18:22:18
+Target File:   /mnt/c/Users/human/OneDrive/Documents/Tamagotchi/Touma/Touma-Kamui-XOR-0xE4.bin
+MD5 Checksum:  32c02dc0299ce671c032d90fd47289f8
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+Scan Time:     2024-06-22 18:52:03
+Target File:   /mnt/c/Users/human/OneDrive/Documents/Tamagotchi/Touma/Touma-Kamui-XOR-0xE4.bin
+MD5 Checksum:  855664a9eea77c715cb38040ddb6d9a2
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------

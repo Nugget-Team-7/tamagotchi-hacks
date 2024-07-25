@@ -1,0 +1,131 @@
+
+<!-- saved from url=(0024)https://tim.studded.net/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>TAMASUMA!</title>
+    <script type="text/javascript" src="./TAMASUMA!_files/jquery-3.6.0.min.js.download"></script>
+    <script type="text/javascript" src="./TAMASUMA!_files/md5.min.js.download"></script>
+    <script type="text/javascript" src="./TAMASUMA!_files/tim.js.download"></script>
+		<link rel="stylesheet" href="./TAMASUMA!_files/tim.css">
+  </head>
+  
+  <body data-new-gr-c-s-check-loaded="14.1140.0" data-gr-ext-installed="">
+    <div id="overlay"></div>
+    
+    <h2>Features</h2>
+    
+    <p>
+      </p><ul>
+        <li><strong>Open:</strong> Click 'Choose File' to open a Smacard dump file directly on your computer. No upload is neccesary, all operations run locally.</li>
+        <li><strong>Reset Usages:</strong> Click the 'Clear' buttons to reset Device ID usages.</li>
+        <li><strong>Download Images:</strong> Right-click an image to download it.</li>
+        <li>
+          <strong>Replace Images:</strong>
+          <ol>
+            <li>Click on an image to replace it.</li>
+            <li>Open your .png or .bmp image. Your image should contain the same number or fewer colors than the palette size for the image you are trying to replace. For best results, use an image that is the same size as the image you are replacing.</li>
+            <li>For image sets with only one image you can just click the 'Save' button.</li>
+            <li>For sets with multiple images using different colors, you may need to preserve palette colors as you import subsequent images. Check the boxes of colors that you need to preserve from the previous image(s).</li>
+            <li>Note that some image sets share a palette with other image sets and you may need to use the checkboxes in this case as well.</li>
+          </ol>
+        </li>
+        <li><strong>Export:</strong> Click 'Export' button to export your Smacard file with all modifications.</li>
+        <li><strong>Open-source:</strong> You can save the entire site to your Desktop and use it there. Feel free to use the code as you see fit.</li>
+      </ul>
+    <p></p>
+    
+    <h2>File</h2>
+    
+    <input type="file" id="file-selector" accept=".bin">
+    <input type="button" id="export-button" value="Export">
+    
+    <h2>Header</h2>
+    
+    <span id="tamasuma-string">(no data)</span>
+    
+    <p>Card ID: <span id="card-id">-</span></p>
+    
+    <p>
+      Date: <span id="year">-</span>/<span id="month">-</span>/<span id="day">-</span>
+    </p>
+    
+    <p>
+      Device IDs
+      <br>
+      <input id="device-id-0" class="w8" disabled="">
+      <input id="device-id-1" class="w8" disabled="">
+      <input id="device-id-2" class="w8" disabled="">
+      <br>
+      <input type="button" id="device-id-0-button" class="w8" value="Clear" disabled="">
+      <input type="button" id="device-id-1-button" class="w8" value="Clear" disabled="">
+      <input type="button" id="device-id-2-button" class="w8" value="Clear" disabled="">
+    </p>
+    
+    <h2>Image Sets</h2>
+    
+    <input id="transparency" type="checkbox" checked="">
+    <label for="transparency">Hide Transparent Colors (this option does not modify the export)</label>
+    
+    <div id="images"></div>
+    <div id="image-template" class="image collapsed">
+      <button class="expand-button">↕</button>
+      Image Set <span class="image-id"></span>
+      <br>
+      <div class="canvases"></div>
+      <div class="details">
+        Palette <span class="palette-ids"></span>
+        <div class="palette"></div>
+        <div class="sprites"></div>
+      </div>
+    </div>
+    <input id="color-template" class="color w4">
+    <div id="sprite-template" class="sprite">
+      Sprite <span class="sprite-id"></span>
+      <br>
+      <textarea cols="64" rows="8"></textarea>
+    </div>
+    
+    <dialog id="import-image-dialog">
+      <input type="file" id="import-image-file-selector" accept=".png,.bmp">
+      <div id="color-checkbox-template" class="color-checkbox"><input type="checkbox"></div>
+      <h3>Import Image</h3>
+      <canvas id="import-image-canvas"></canvas>
+      <br>
+      Imported Colors:
+      <div id="import-image-palette"></div>
+      <br>
+      <div id="import-image-overflow">Unused Colors:
+        <div id="import-image-unused-palette"></div>
+        <br>
+      </div>
+      Existing Palette:
+      <div id="import-image-old-palette"></div>
+      <div id="import-image-old-palette-checkboxes"></div>
+      New Palette:
+      <div id="import-image-new-palette"></div>
+      <br>
+      <input type="button" id="save-import-button" value="Save">
+      <input type="button" id="cancel-import-button" value="Cancel">
+    </dialog>
+  
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

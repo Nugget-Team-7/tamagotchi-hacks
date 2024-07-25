@@ -1,0 +1,7 @@
+[[0;34m+[0m] [0;36m[1mStatic binary firmware versions detection[0m
+[1m=================================================================[0m
+This module extracts version and license details from the firmware files.
+On Linux based systems all binaries are analysed for version details.
+On Non Linux systems all files are analysed for version details.
+
+[[0;31m-[0m] Tue Nov 28 11:50:51 MST 2023 - S09_firmware_base_version_check nothing reported

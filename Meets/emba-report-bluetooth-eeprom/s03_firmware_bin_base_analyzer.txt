@@ -1,0 +1,16 @@
+[[0;34m+[0m] [0;36m[1mBinary firmware basic analyzer[0m
+[1m=================================================================[0m
+This module tries to identify the used operating system via simple counting of different keywords and doing some basic heuristics.
+
+
+[0;34m==>[0m [0;36mOS detection[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Architecture detection running on /firmware
+[[0;33m*[0m] Initial OS guessing:
+
+    [0;33mOperating system detection:[0m
+
+[0;34m==>[0m [0;36mArchitecture detection for RTOS based systems[0m
+-----------------------------------------------------------------
+
+[[0;32m+[0m][0;32m Possible architecture details found ([0;33mcpu_rec[0;32m): [0;33m8051[0m[0m

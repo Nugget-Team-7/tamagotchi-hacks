@@ -1,0 +1,19 @@
+[[0;34m+[0m] [0;36m[1mFinal aggregator[0m
+[1m=================================================================[0m
+[[0;32m+[0m][0;32m Tested firmware:[0;33m /mnt/c/Users/Human/OneDrive/Documents/Tamagotchi/Meets/bluetooth_eeprom_HT24LC128TSSOP8_kopernikus.BIN[0m[0m
+[[0;32m+[0m][0;32m EMBA start command:[0;33m ./emba -l /home/princesspi/log -f /mnt/c/Users/Human/OneDrive/Documents/Tamagotchi/Meets/bluetooth_eeprom_HT24LC128TSSOP8_kopernikus.BIN -p ./scan-profiles/default-scan-gpt.emba[0m[0m
+[[0;32m+[0m][0;32m Detected architecture:[0;33m 8051 / [0m[0m
+
+-----------------------------------------------------------------
+
+[[0;32m+[0m][0;32m [0;33m3[0;32m files and [0;33m0 [0;32mdirectories detected.[0m
+[[0;32m+[0m][0;32m Entropy analysis of binary firmware is: [0;33m4.382837 bits per byte.[0m
+[[0;32m+[0m][0;32m Entropy analysis of binary firmware is available:[0;33m /logs/firmware_entropy.png[0m
+
+-----------------------------------------------------------------
+
+[[0;32m+[0m][0;32m Found the following configuration issues:[0m
+    [0;32mFound [0;33m1[0;32m areas with weak permissions.[0m
+
+-----------------------------------------------------------------
+

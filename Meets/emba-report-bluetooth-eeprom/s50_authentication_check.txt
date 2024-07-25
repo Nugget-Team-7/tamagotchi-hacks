@@ -1,0 +1,69 @@
+[[0;34m+[0m] [0;36m[1mCheck users, groups and authentication[0m
+[1m=================================================================[0m
+
+
+[0;34m==>[0m [0;36mUsers with UID zero (0)[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching accounts with UID 0
+[[0;31m-[0m] /etc/passwd not available
+
+[0;34m==>[0m [0;36mShadow file identification[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching shadow files
+[[0;31m-[0m] shadow file not available
+
+[0;34m==>[0m [0;36mNon-unique accounts[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching non-unique accounts
+[[0;31m-[0m] /etc/passwd not available
+
+[0;34m==>[0m [0;36mUnique group IDs[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching non-unique group ID's
+[[0;31m-[0m] /etc/group not available
+
+[0;34m==>[0m [0;36mUnique group name[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching non-unique group names
+[[0;31m-[0m] /etc/group not available
+
+[0;34m==>[0m [0;36mQuery user accounts[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Reading system users
+[[0;31m-[0m] /etc/passwd not available
+
+[0;34m==>[0m [0;36mQuery NIS and NIS+ authentication support[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Check nsswitch.conf
+[[0;31m-[0m] /etc/nsswitch.conf not available
+
+[0;34m==>[0m [0;36mScan and test sudoers files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No sudoers files found in /logs/firmware
+
+[0;34m==>[0m [0;36mOwnership and permissions for sudo configuration files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No sudoers files found - no check possible
+
+[0;34m==>[0m [0;36mSearch for PAM password strength testing libraries[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Searching PAM password testing modules (cracklib, passwdqc, pwquality)
+[[0;31m-[0m] pam_cracklib.so not found
+[[0;31m-[0m] pam_passwdqc.so not found
+[[0;31m-[0m] pam_pwquality.so not found
+[[0;31m-[0m] No PAM modules for password strength testing found
+
+[0;34m==>[0m [0;36mScan PAM configuration file[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] /etc/pam.conf not available
+
+[0;34m==>[0m [0;36mSearching PAM configurations and LDAP support in PAM files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] /etc/pam.d not available
+
+[0;34m==>[0m [0;36mSearching available PAM files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] Nothing found
+
+[*] Statistics:0
+[[0;31m-[0m] Tue Nov 28 11:49:55 MST 2023 - S50_authentication_check nothing reported

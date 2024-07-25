@@ -1,0 +1,1 @@
+[[0;31m-[0m] Tue Nov 28 11:49:56 MST 2023 - S116_qemu_version_detection nothing reported

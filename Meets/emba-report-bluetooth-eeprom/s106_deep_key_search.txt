@@ -1,0 +1,7 @@
+[[0;34m+[0m] [0;36m[1mDeep analysis of files for interesting key material[0m
+[1m=================================================================[0m
+
+[[0;33m*[0m] Pattern: \-\-\-\-\-BEGIN\ .*AES KEY\-\-\-\-\-
+[[0;33m*[0m] Pattern: \-\-\-\-\-BEGIN\ .*PRIVATE KEY\-\-\-\-\-
+
+[[0;31m-[0m] Tue Nov 28 11:49:52 MST 2023 - S106_deep_key_search nothing reported

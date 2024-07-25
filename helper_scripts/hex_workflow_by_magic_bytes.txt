@@ -1,0 +1,3 @@
+xxd -p good1.bin > good1.bin.hex
+csplit --prefix=out2 good1.bin.hex "/"8008"/" "{*}"
+for i in $(find . -type f -name "out2*"); do xxd -r -p $i > "$i.bin"; done;

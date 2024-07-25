@@ -1,0 +1,115 @@
+Install ubuntu 16.04
+install guest additions from virtualbox
+su
+usermod -a -G sudo vboxuser
+sudo apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison pkg-config
+
+
+git clone https://github.com/torvalds/linux.git
+cd linux
+git checkout v4.10
+
+make menuconfig
+nano .config
+make -j8
+sudo make modules_install
+sudo make install
+sudo make headers_install
+sudo update-initramfs -c -k x.x.x #x.x.x is the version and name of the kernel you compiled, you'll see it listed here and there in the above output
+sudo nano /etc/default/grub
+    GRUB_DEFAULT=0
+    #GRUB_HIDDEN_TIMEOUT=0
+    #GRUB_HIDDEN_TIMEOUT_QUIET=false
+    GRUB_TIMEOUT=-1
+    GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+    #GRUB_CMDLINE_LINUX_DEFAULT="quiet slash"
+
+sudo update-grub
+sudo reboot
+uanme -mrs
+stop boot at the countdown, boot new kernel
+install guest additions from virtualbox (again)
+configure shared folder, copy-paste, and drag-drop
+sudo reboot
+
+
+===== xubuntu modern =====
+# BASIC STEPS https://groups.google.com/g/subsurface-divelog/c/sLQ4QKUK34Y
+
+nstall xubuntu 22.04LTS
+su
+install guest additions from virtualbox
+usermod -a -G sudo vboxuser
+usermod -a -G tty vboxuser
+apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison autoconf dkms linux-headers-amd64
+reboot
+git clone https://github.com/cschramm/irda.git
+    #https://github.com/cschramm/irda
+cd irda
+git checkout kernel-5.4
+make -C src
+autoconf -f && ./configure
+sudo dkms add src
+sudo dkms install "irda/$(git show --pretty=format:"%cd~%h" --date="format:%Y%m%d" | head -1)"
+cd ~
+#get and install irda-utils deb manually
+#https://packages.ubuntu.com/focal/irda-utils
+wget http://mirrors.kernel.org/ubuntu/pool/main/i/irda-utils/irda-utils_0.9.18-15ubuntu1_amd64.deb
+sudo dpkg -i irda-utils_0.9.18-15ubuntu1_amd64.deb 
+#init (make init-irda shell script for convenience)
+irattach irda0 -s
+
+Troubleshooting:
+    reboot host computer
+    reboot vm
+    use good usb port
+    disconnect and reconnect physical usb
+    disconnect and reconnect virtual usb
+
+===== scratch =====
+#git clone https://github.com/torvalds/linux.git
+git checkout v6.7 #the latest LTS release
+    #https://github.com/torvalds/linux
+    #https://www.kernel.org/
+
+# best clean - removes .config/configs/backups
+make mrproper
+
+#menu config options
+make menuconfig
+make gconfig
+make xconfig
+
+#use currently existing .config from os
+make oldconfig
+
+#docs
+make htmldocs
+make pdfdocs
+make latexdocs
+make cleandocs #clean up
+
+#make iso file
+make isoimage
+
+make all
+sudo make modules_install
+sudo make firmware_install
+sudo make headers_install
+
+chown -R vboxuser:vboxsuer .
+
+sudo apt install linux-headers-amd64 #metapackage
+
+sudo apt install libgtk-4-1 libgtk-4-dev qt6-base-dev
+
+*
+* Could not find Qt6 or Qt5 via pkg-config.
+* Please install Qt6 or Qt5 and make sure it's in PKG_CONFIG_PATH
+* You need Qt6Core Qt6Gui Qt6Widgets for Qt6
+* You need Qt5Core Qt5Gui Qt5Widgets for Qt5
+
+sudo apt install libgtk-4-1 libgtk-4-dev libqt6core6 qt6-base-dev libqt6gui6 libqt6widgets6
+pkg-config libgtk-4-1 libgtk-4-dev libqt6core6 qt6-base-dev libqt6gui6 libqt6widgets6
+
+sudo irdadump -x -d -b -i irda0

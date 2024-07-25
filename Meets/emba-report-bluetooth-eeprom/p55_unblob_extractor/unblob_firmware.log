@@ -1,0 +1,6 @@
+2023-11-28 18:49.48 [debug    ] Logging configured             extract_root=. pid=1462 vebosity_level=1
+2023-11-28 18:49.48 [info     ] Start processing file          file=/firmware pid=1462
+2023-11-28 18:49.48 [debug    ] Processing file                path=/firmware pid=1465 size=0x4000
+2023-11-28 18:49.49 [debug    ] Ended searching for chunks     all_chunks=[] pid=1465
+2023-11-28 18:49.49 [debug    ] Calculating entropy for file   path=/firmware pid=1465 size=0x4000
+2023-11-28 18:49.49 [debug    ] Entropy calculated             block_size=0x400 highest=83.13 lowest=0.0 mean=39.41 path=/firmware pid=1465 size=0x4000

@@ -1,0 +1,16 @@
+[[0;34m+[0m] [0;36m[1mFinal vulnerability aggregator[0m
+[1m=================================================================[0m
+This module aggregates all found version numbers together from S06, S08, S09, S24, S25 and S115 and searches with cve-search for known vulnerabilities.
+Additionally the identified CVE details are matched with public exploit databases.
+
+
+[[0;33m*[0m] Aggregate vulnerability details
+[[0;33m*[0m] Collect version details of module s06_distribution_identification.csv.
+[[0;33m*[0m] Collect version details of module s09_firmware_base_version_check.csv.
+
+[0;34m==>[0m [0;36mSoftware inventory generation.[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No Version details found.
+
+[*] Statistics:1
+[[0;31m-[0m] Tue Nov 28 11:51:17 MST 2023 - F20_vul_aggregator nothing reported

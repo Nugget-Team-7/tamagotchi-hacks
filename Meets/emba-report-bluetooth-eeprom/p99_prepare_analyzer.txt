@@ -1,0 +1,22 @@
+[[0;34m+[0m] [0;36m[1mAnalysis preparation[0m
+[1m=================================================================[0m
+
+[[0;33m*[0m] Quick check if it is a real Linux system
+[[0;35m![0m][0;35m Your firmware looks not like a regular Linux system, sure that you have entered the correct path?[0m
+
+[[0;33m*[0m] Unique files auto detection for [0;33m/firmware[0m (could take some time)
+
+[[0;33m*[0m] Found [0;33m3[0m unique files.
+
+
+[[0;33m*[0m] Architecture auto detection (could take some time)
+
+    [0;31mNo architecture in firmware found[0m
+[[0;35m![0m][0;35m Since no architecture could be detected, you should set one.[0m
+[[0;33m*[0m] RTOS system detected
+[[0;35m![0m][0;35m Check with cwe-checker is disabled![0m
+
+[[0;35m![0m][0;35m Enable it with the -c switch.[0m
+[[0;35m![0m][0;35m Automated emulation is disabled.[0m
+[[0;35m![0m][0;35m Enable it with the [0;33m-E[0;35m switch.[0m[0m
+[[0;31m-[0m] Tue Nov 28 11:49:52 MST 2023 - S115_usermode_emulator nothing reported

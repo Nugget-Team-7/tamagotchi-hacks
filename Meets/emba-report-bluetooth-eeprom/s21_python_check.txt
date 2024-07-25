@@ -1,0 +1,6 @@
+[[0;34m+[0m] [0;36m[1mCheck python scripts for security issues[0m
+[1m=================================================================[0m
+
+
+[*] Statistics:0:0
+[[0;31m-[0m] Tue Nov 28 11:49:53 MST 2023 - S21_python_check nothing reported

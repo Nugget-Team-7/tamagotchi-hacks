@@ -1,0 +1,40 @@
+[[0;34m+[0m] [0;36m[1mBinary firmware deep extractor[0m
+[1m=================================================================[0m
+
+
+[0;34m==>[0m [0;36mDeep extraction mode[0m
+-----------------------------------------------------------------
+[[0;33m*[0m] Deep extraction - 1st round
+[[0;33m*[0m] Walking through all files and try to extract what ever possible
+[[0;33m*[0m] Unique and limited file array generation for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Root directory auto detection for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Found no real root directory - setting it to: [0;33m/logs/firmware[0m via [0;33mlast resort[0m.
+[[0;33m*[0m] Deep extraction - 2nd round
+[[0;33m*[0m] Walking through all files and try to extract what ever possible
+[[0;33m*[0m] Unique and limited file array generation for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Root directory auto detection for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Found no real root directory - setting it to: [0;33m/logs/firmware[0m via [0;33mlast resort[0m.
+[[0;33m*[0m] Deep extraction - 3rd round
+[[0;33m*[0m] Walking through all files and try to extract what ever possible
+[[0;33m*[0m] Unique and limited file array generation for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Root directory auto detection for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Found no real root directory - setting it to: [0;33m/logs/firmware[0m via [0;33mlast resort[0m.
+[[0;33m*[0m] Deep extraction - 4th round
+[[0;33m*[0m] Walking through all files and try to extract what ever possible with binwalk matryoshka mode
+[[0;33m*[0m] WARNING: This is the last extraction round that is executed.
+[[0;33m*[0m] Unique and limited file array generation for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Root directory auto detection for [0;33m/logs/firmware[0m (could take some time)
+
+[[0;33m*[0m] Found no real root directory - setting it to: [0;33m/logs/firmware[0m via [0;33mlast resort[0m.
+[[0;33m*[0m] Before deep extraction we had [0;33m0[0m files, after deep extraction we have now [0;33m0[0m files extracted.
+
+[0;34m==>[0m [0;36mExtration results[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] Tue Nov 28 11:49:50 MST 2023 - P60_deep_extractor nothing reported

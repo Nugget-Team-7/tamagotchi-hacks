@@ -1,0 +1,6 @@
+[[0;34m+[0m] [0;36m[1mSearch password files[0m
+[1m=================================================================[0m
+This module tries to identify password related files and analyses found password files for hashes, users and other configuration weaknesses.
+
+[[0;31m-[0m] No password files found
+[[0;31m-[0m] Tue Nov 28 11:49:54 MST 2023 - S45_pass_file_check nothing reported

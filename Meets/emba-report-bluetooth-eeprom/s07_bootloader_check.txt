@@ -1,0 +1,29 @@
+[[0;34m+[0m] [0;36m[1mCheck bootloader and system startup[0m
+[1m=================================================================[0m
+
+
+[0;34m==>[0m [0;36mScan for device tree blobs[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No device tree blobs found
+
+[0;34m==>[0m [0;36mScan for bootloader[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No Syslinux configuration file found
+[[0;31m-[0m] No Grub configuration file found
+[[0;31m-[0m] No Grub configuration file found
+[[0;31m-[0m] No Grub configuration check
+[[0;31m-[0m] No FreeBSD or DragonFly bootloader files found
+[[0;31m-[0m] No LILO configuration file found
+[[0;31m-[0m] No SILO configuration file found
+[[0;31m-[0m] No YABOOT configuration file found
+[[0;31m-[0m] No OpenBSD/bootstrap files found
+[[0;31m-[0m] No OpenBSD configuration file found
+[[0;31m-[0m] No U-Boot image found
+
+[0;34m==>[0m [0;36mScan for startup files[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] No startup files found
+
+[0;34m==>[0m [0;36mCheck default run level[0m
+-----------------------------------------------------------------
+[[0;31m-[0m] Tue Nov 28 11:49:53 MST 2023 - S07_bootloader_check nothing reported

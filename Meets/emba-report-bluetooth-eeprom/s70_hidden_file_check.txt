@@ -1,0 +1,6 @@
+[[0;34m+[0m] [0;36m[1mSearch hidden files[0m
+[1m=================================================================[0m
+This module tries to identify hidden Linux files.
+
+[[0;31m-[0m] No hidden files found!
+[[0;31m-[0m] Tue Nov 28 11:49:55 MST 2023 - S70_hidden_file_check nothing reported
